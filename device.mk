@@ -219,6 +219,9 @@ PRODUCT_PACKAGES += \
     init.xiaomi.rc \
     ueventd.qcom.rc
 
+# IFAA manager
+    include device/xiaomi/extras/ifaa.mk
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
